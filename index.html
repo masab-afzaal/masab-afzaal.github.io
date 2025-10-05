@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Masab - Computer Science graduate seeking MS/PhD opportunities in AI and Cybersecurity">
+    <meta name="keywords" content="Muhammad Masab, Computer Science, AI, Cybersecurity, Django, Machine Learning, PhD">
+    <meta name="author" content="Muhammad Masab">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Masab">
+    <meta property="og:description" content="Computer Scientist passionate about AI and Cybersecurity">
+    
+    <title>Muhammad Masab - Academic Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .section-divider {
+            background: linear-gradient(90deg, transparent, #667eea, transparent);
+            height: 1px;
+            margin: 4rem 0;
+        }
+        /* Mobile menu styles */
+        .mobile-menu {
+            display: none;
+        }
+        .mobile-menu.active {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="font-bold text-xl gradient-text">Muhammad Masab</div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-indigo-600 transition">About</a>
+                    <a href="#research" class="text-gray-700 hover:text-indigo-600 transition">Research Interests</a>
+                    <a href="#projects" class="text-gray-700 hover:text-indigo-600 transition">Projects</a>
+                    <a href="#experience" class="text-gray-700 hover:text-indigo-600 transition">Experience</a>
+                    <a href="#leadership" class="text-gray-700 hover:text-indigo-600 transition">Leadership</a>
+                    <a href="#contact" class="text-gray-700 hover:text-indigo-600 transition">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu pb-4">
+                <a href="#about" class="block py-2 text-gray-700 hover:text-indigo-600">About</a>
+                <a href="#research" class="block py-2 text-gray-700 hover:text-indigo-600">Research Interests</a>
+                <a href="#projects" class="block py-2 text-gray-700 hover:text-indigo-600">Projects</a>
+                <a href="#experience" class="block py-2 text-gray-700 hover:text-indigo-600">Experience</a>
+                <a href="#leadership" class="block py-2 text-gray-700 hover:text-indigo-600">Leadership</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-indigo-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+                    Muhammad Masab
+                </h1>
+                <p class="text-2xl text-gray-600 mb-6">Computer Scientist & Aspiring Researcher</p>
+                <p class="text-xl gradient-text font-semibold mb-8">Building Secure, Intelligent Systems for Tomorrow</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#contact" class="bg-indigo-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-indigo-700 transition">
+                        Get in Touch
+                    </a>
+                    <a href="#research" class="border-2 border-indigo-600 text-indigo-600 px-8 py-3 rounded-lg font-medium hover:bg-indigo-50 transition">
+                        Research Interests
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">About Me</h2>
+            
+            <div class="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p>I'm a dedicated Software Engineer with hands-on experience in Python, Django, DRF, Flask, FastAPI, and LangChain, currently focused on crafting robust and scalable web applications. While I enjoy solving backend challenges, my true ambition lies beyond.</p>
+                <p class="font-medium text-indigo-700">My long-term objective is to pursue advanced research in Cybersecurity and Artificial Intelligence, with the goal of building secure and intelligent systems that address real-world challenges. I am particularly motivated by exploring digital threats, developing ethical AI solutions, and contributing to a safer technological ecosystem.</p>
+                <p>I am seeking opportunities for graduate study and research collaboration in cybersecurity and AI. I would be honored to contribute to and learn from scholars and research groups working in these areas.</p>
+            </div>
+
+            <div class="mt-12 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl p-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6">Education</h3>
+                <div class="space-y-3">
+                    <p class="text-lg">
+                        <span class="font-semibold">Bachelor of Science in Computer Science</span>
+                    </p>
+                    <p class="text-gray-700">University of Sindh, Jamshoro</p>
+                    <p class="text-gray-700">Graduated: December 2025 | CGPA: 3.3/4.0</p>
+                    <p class="text-indigo-600 font-medium">
+                        Duolingo English Test: 130/160 (Equivalent IELTS: 7.0–7.5)
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Research Interests -->
+    <section id="research" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4 text-center">Research Interests</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+                My research focus lies at the intersection of artificial intelligence and cybersecurity, 
+                exploring how these fields can complement each other to create more secure and intelligent systems.
+            </p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition transform hover:-translate-y-1">
+                    <div class="text-5xl mb-4">🔐</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Cybersecurity</h3>
+                    <p class="text-gray-700">Network Security, Threat Intelligence, Ethical Hacking, Secure System Design</p>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition transform hover:-translate-y-1">
+                    <div class="text-5xl mb-4">🤖</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Artificial Intelligence</h3>
+                    <p class="text-gray-700">Machine Learning, Natural Language Processing, AI Ethics, LangChain Applications</p>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition transform hover:-translate-y-1">
+                    <div class="text-5xl mb-4">🛡️</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">AI Security</h3>
+                    <p class="text-gray-700">Adversarial ML, AI Model Security, Privacy-Preserving AI, Secure AI Systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Technical Expertise</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Programming Languages</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Python</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">JavaScript</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">PHP</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">JAVA</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">C++</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">HTML/CSS</span>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Frameworks & Tools</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Django</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">DRF</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Flask</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">FastAPI</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Laravel</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Yii2</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">LangChain</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">LangGraph</span>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Technologies</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">PostgreSQL</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Redis</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Docker</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Git</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">RESTful APIs</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Tailwind CSS</span>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Focus Areas</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Backend Development</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">AI Integration</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Security Practices</span>
+                        <span class="bg-white px-4 py-2 rounded-lg text-gray-700 font-medium shadow-sm">Scalable Architecture</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Projects -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4 text-center">Featured Projects</h2>
+            <p class="text-center text-gray-600 mb-12">
+                A selection of projects demonstrating practical application of software engineering and AI concepts
+            </p>
+            
+            <div class="space-y-8">
+                <!-- Project 1: Collabrix -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900">Collabrix</h3>
+                            <p class="text-indigo-600 font-medium">SaaS Platform</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 leading-relaxed">Comprehensive team collaboration and productivity suite built with Django and modern web technologies. Features real-time collaboration, project management, and integrated communication tools.</p>
+                    <div class="mb-4">
+                        <p class="text-sm font-semibold text-gray-600 mb-2">Technologies:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">Django</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">DRF</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">Redis</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">WebSockets</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">Production-ready SaaS application demonstrating full-stack capabilities and scalable architecture design.</p>
+                </div>
+
+                <!-- Project 2: MindBuddy -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900">MindBuddy</h3>
+                            <p class="text-indigo-600 font-medium">International Hackathon Project</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 leading-relaxed">AI-powered mental health companion leveraging natural language processing to provide emotional support and resources. Built during an international hackathon competition.</p>
+                    <div class="mb-4">
+                        <p class="text-sm font-semibold text-gray-600 mb-2">Technologies:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">Python</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">LangChain</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">FastAPI</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">NLP</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">Successfully deployed AI solution addressing mental health accessibility.</p>
+                </div>
+
+                <!-- Project 3: SyllabusAI -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900">SyllabusAI</h3>
+                            <p class="text-indigo-600 font-medium">International Hackathon Project</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 leading-relaxed">Intelligent syllabus generation and curriculum planning tool using AI to optimize educational content delivery and learning paths.</p>
+                    <div class="mb-4">
+                        <p class="text-sm font-semibold text-gray-600 mb-2">Technologies:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">Python</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">AI/ML</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">Django</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">LangChain</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">Automated educational content structuring for improved learning outcomes.</p>
+                </div>
+
+                <!-- Project 4: VirtualTwin -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900">VirtualTwin</h3>
+                            <p class="text-indigo-600 font-medium">International Hackathon Project</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 leading-relaxed">Digital twin simulation platform for real-world system modeling and predictive analysis.</p>
+                    <div class="mb-4">
+                        <p class="text-sm font-semibold text-gray-600 mb-2">Technologies:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">Python</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">AI</span>
+                            <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">Data Modeling</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">Demonstrated ability to translate complex systems into digital representations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Professional Experience</h2>
+            
+            <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl p-8 mb-8">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900">Software Engineer (Intern)</h3>
+                        <p class="text-xl text-indigo-600">Techkorner</p>
+                    </div>
+                    <div class="text-gray-600 mt-2 md:mt-0">
+                        <p>Canada (Remote)</p>
+                        <p class="font-medium">6 months</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 mb-4">Gained professional experience working with a Canadian-based technology company, developing and maintaining scalable web applications using Django and modern backend technologies.</p>
+                <div>
+                    <p class="font-semibold text-gray-900 mb-2">Key Achievements:</p>
+                    <ul class="space-y-2">
+                        <li class="text-gray-700 flex items-start">
+                            <span class="text-indigo-600 mr-2">•</span>
+                            Developed RESTful APIs serving production applications
+                        </li>
+                        <li class="text-gray-700 flex items-start">
+                            <span class="text-indigo-600 mr-2">•</span>
+                            Implemented secure authentication and authorization systems
+                        </li>
+                        <li class="text-gray-700 flex items-start">
+                            <span class="text-indigo-600 mr-2">•</span>
+                            Collaborated with international team members across time zones
+                        </li>
+                        <li class="text-gray-700 flex items-start">
+                            <span class="text-indigo-600 mr-2">•</span>
+                            Contributed to code reviews and technical documentation
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Competitions -->
+            <div class="mt-12">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6">Academic Competitions</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white border-2 border-indigo-200 rounded-xl p-6">
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">CALICO Fall 2025</h4>
+                        <p class="text-indigo-600 font-medium mb-2">UC Berkeley</p>
+                        <p class="text-gray-600 mb-2">International Programming Competition</p>
+                        <p class="text-gray-700 italic">Participated in prestigious competitive programming event</p>
+                    </div>
+                    
+                    <div class="bg-white border-2 border-indigo-200 rounded-xl p-6">
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">International Hackathons</h4>
+                        <p class="text-indigo-600 font-medium mb-2">Multiple Organizers</p>
+                        <p class="text-gray-700 mb-2">3 competitions | Projects: MindBuddy, SyllabusAI, VirtualTwin</p>
+                        <p class="text-gray-700 italic">Successfully built and deployed functional projects under time constraints</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Leadership & Service -->
+    <section id="leadership" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4 text-center">Leadership & Community Service</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+                Committed to using technology and education to create positive social impact, 
+                particularly in underserved communities
+            </p>
+            
+            <div class="space-y-8">
+                <!-- Leadership 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900">District President</h3>
+                            <p class="text-xl text-indigo-600">Study Aid Foundation for Excellence</p>
+                        </div>
+                        <div class="text-gray-600 mt-2 md:mt-0 md:text-right">
+                            <p class="font-medium">2 years</p>
+                            <p>300+ members</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">Led a large volunteer organization dedicated to empowering students in their educational journey, with special focus on underserved communities in the Thar Desert region where basic educational resources are scarce.</p>
+                    <div class="bg-indigo-50 rounded-lg p-6">
+                        <p class="font-semibold text-gray-900 mb-3">Impact & Achievements:</p>
+                        <ul class="space-y-2">
+                            <li class="text-gray-700 flex items-start">
+                                <span class="text-indigo-600 mr-2 text-xl">✓</span>
+                                Provided comprehensive academic support and guidance to hundreds of students
+                            </li>
+                            <li class="text-gray-700 flex items-start">
+                                <span class="text-indigo-600 mr-2 text-xl">✓</span>
+                                Organized educational workshops and mentorship programs
+                            </li>
+                            <li class="text-gray-700 flex items-start">
+                                <span class="text-indigo-600 mr-2 text-xl">✓</span>
+                                Coordinated resource distribution to areas lacking basic educational necessities
+                            </li>
+                            <li class="text-gray-700 flex items-start">
+                                <span class="text-indigo-600 mr-2 text-xl">✓</span>
+                                Built partnerships with educational institutions and NGOs
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Leadership 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900">Web Development Instructor (Volunteer)</h3>
+                            <p class="text-xl text-indigo-600">Helping Hand NGO</p>
+                        </div>
+                        <div class="text-gray-600 mt-2 md:mt-0 md:text-right">
+                            <p class="font-medium">3 months</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">Taught web development fundamentals to orphan students in collaboration with Helping Hand NGO, providing them with valuable technical skills for future opportunities.</p>
+                    <div class="bg-indigo-50 rounded-lg p-6">
+                        <p class="font-semibold text-gray-900 mb-3">Impact & Achievements:</p>
+                        <ul class="space-y-2">
+                            <li class="text-gray-700 flex items-start">
+                                <span class="text-indigo-600 mr-2 text-xl">✓</span>
+                                Developed curriculum for students with no prior programming experience
+                            </li>
+                            <li class="text-gray-700 flex items-start">
+                                <span class="text-indigo-600 mr-2 text-xl">✓</span>
+                                Mentored students in HTML, CSS, JavaScript, and basic web technologies
+                            </li>
+                            <li class="text-gray-700 flex items-start">
+                                <span class="text-indigo-600 mr-2 text-xl">✓</span>
+                                Empowered disadvantaged youth with marketable technical skills
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-indigo-600 to-purple-700 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+            <p class="text-xl mb-8">
+                I'm actively seeking opportunities for graduate studies and research collaboration. 
+                If you're working in AI, cybersecurity, or related fields, I'd love to hear from you.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 mb-8">
+                <a href="mailto:your.email@example.com" class="text-lg hover:underline">
+                    📧 masab.afzaal@gmail.com
+                </a>
+                <a href="https://github.com/masab-afzaal" target="_blank" class="text-lg hover:underline">
+                    💻 GitHub
+                </a>
+                <a href="https://linkedin.com/in/masab-afzaal-ba579522a/" target="_blank" class="text-lg hover:underline">
+                    💼 LinkedIn
+                </a>
+            </div>
+            <p class="text-indigo-200">📍 Mirpur Khas, Sindh, Pakistan</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 Muhammad Masab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
